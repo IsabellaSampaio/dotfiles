@@ -18,6 +18,7 @@ sudo apt install openssh-client
 wait
 sudo apt install openssh-server
 wait
+echo "All set, enjoy!" 
+sleep 2
 cd
 exec zsh -l 
-echo "All set, enjoy!" 
