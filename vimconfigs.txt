@@ -119,21 +119,21 @@ nnoremap <F4> :if &guioptions=~#'mTr'<Bar>
 
 " MAPPINGS -------------------------------------------------------------- {{{
 
-" Spacebar as : 
+" Spacebar as :vsplit
 nnoremap <space> :vsplit
 
 " Using CTRL Y to yank lines with buffer
 vmap <C-c> "+yi
 
-" Setting ç as :wq command.
+" Yank from cursor to the end of line. 
+nnoremap Y y$
+
+" Setting ç as :w command.
 nnoremap ç :w <CR>
 
 " Center the cursor vertically when moving to the next word during a search.
 nnoremap n nzz
 nnoremap N Nzz
-
-" Yank from cursor to the end of line. 
-nnoremap Y y$
 
 " Navigation between split screens with arrow keys.
 nnoremap <c-k> <c-w>k
@@ -148,6 +148,7 @@ noremap <c-left> <c-w>>
 noremap <c-right> <c-w><
 
 " NERDTree specific mappings.
+
 " Map the F3 key to toggle NERDTree open and close.
 nnoremap <F3> :NERDTreeToggle<cr>
 
