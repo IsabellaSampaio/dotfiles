@@ -17,6 +17,7 @@ echo "Installing openssh..."
 sudo apt install openssh-client
 wait
 sudo apt install openssh-server
+echo "All set, enjoy!" 
+sleep 2
 cd
 exec zsh -l 
-echo "All set, enjoy!" 
