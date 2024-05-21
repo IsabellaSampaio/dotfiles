@@ -1,6 +1,6 @@
 # Dotfiles 🦉 
 
-This is a repository for the main configs that I use for programming and productivity. Here it will be possible to find my configs for vim, zsh, and other tools that I've been using.
+This is a repository for the main configs that I use mainly for programming and productivity. Here it will be possible to find my configs for vim, zsh, and other tools that I've been using.
 
 ### Vim config
 * To set your configs on .vimrc file, you can simply copy the settings .vimrc and then on your vim environment run the command below to make sure that the new configs are all set:
