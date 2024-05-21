@@ -21,7 +21,7 @@ This is a repository for the main configs that I use for programming and product
   ~ curl -o molokai.vim https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
   ```
 * You should also install the tool to help you run your plugins:
- ```bash
+  ```bash
   ~ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   ```
