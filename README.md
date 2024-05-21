@@ -21,3 +21,13 @@ This is a repository for the main configs that I use for programming and product
   ~ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   ```
+### Downloads and initial setup 
+* To download and load the initial setup, you can either run the mac shell script for macOS running systems or the linux shell script, for Ubuntu running systems. To enable the shell script you should do:
+  ```bash
+  ~ chmod +x name_of_the_shell_file.sh
+  ```
+* And then, simply run the script and wait:
+  ```bash
+  ~ name_of_the_shell_file.sh 
+  ```
+* Note that these scripts only load a fairly simple setup for both systems. If you want to download more packages and configure other stuff you can edit the shell script files to suit your needs the best, these are only my personal configs.
