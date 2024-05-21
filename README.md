@@ -3,7 +3,7 @@
 This is a repository for the main configs that I use for programming and productivity. Here it will be possible to find my configs for vim, zsh, and other tools that I've been using 
 
 ### Vim config
-* To set your configs on .vimrc file, you can simply copy the settings from vimconfigs.txt to your .vimrc file by entering on the command line:
+* To set your configs on .vimrc file, you can simply copy the settings from vimconfigs.txt to your .vimrc file by entering on the command line (on you your home directory):
   ```bash
   ~ cp vimconfigs.txt .vimrc  
   ```
