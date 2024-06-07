@@ -1,0 +1,33 @@
+{
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.iconTheme": "vscode-icons",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "redhat.telemetry.enabled": false,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 1.65,
+    "editor.fontFamily": "JetBrains Mono, monospace", 
+    "editor.rulers": [80, 120],
+    "editor.fontLigatures": true, 
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.compactFolders": false,
+    "breadcrumbs.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "files.exclude": {
+        "**/*.js": { "when": "$(basename).ts" },
+        "**/**.js": { "when": "$(basename).tsx" }
+    },
+    "workbench.layoutControl.enabled": false,
+    "window.menuBarVisibility": "compact",
+    "explorer.fileNesting.enabled": true,
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 10,
+    "explorer.fileNesting.patterns": {
+        "package.json": "vite*, bun.lockb, pnpm-lock*, package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, tsconfig*, prettier*, .eslintrc*, .babelrc*, .stylelintrc*, .prettierrc*, .editorconfig",
+        "env": ".env*",
+    },
+    "window.commandCenter": false
+}
